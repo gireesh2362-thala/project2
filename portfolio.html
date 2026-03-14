@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO - C. SAI SACHIN</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+        
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 2rem;
+            text-align: center;
+        }
+        
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        header h2 {
+            font-size: 1.5rem;
+            font-weight: 300;
+            margin-bottom: 1.5rem;
+        }
+        
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            flex-wrap: wrap;
+        }
+        
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 1rem;
+            transition: opacity 0.3s ease;
+        }
+        
+        nav a:hover {
+            opacity: 0.8;
+            text-decoration: underline;
+        }
+        
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        
+        section {
+            margin-bottom: 2rem;
+        }
+        
+        section h2 {
+            color: #667eea;
+            margin-bottom: 1rem;
+            font-size: 1.8rem;
+        }
+        
+        section h3 {
+            font-size: 1rem;
+            margin-bottom: 1.5rem;
+            line-height: 1.8;
+        }
+        
+        ul {
+            list-style: none;
+        }
+        
+        ul li {
+            background: #f0f0f0;
+            padding: 0.5rem 1rem;
+            margin: 0.5rem 0;
+            border-left: 4px solid #667eea;
+            border-radius: 4px;
+        }
+        
+        .project-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+            margin-top: 1.5rem;
+        }
+        
+        .project-card {
+            background: white;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 1.5rem;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .project-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 16px rgba(102, 126, 234, 0.2);
+        }
+        
+        .project-card h3 {
+            color: #667eea;
+            margin-bottom: 0.7rem;
+            font-size: 1.3rem;
+        }
+        
+        .project-card p {
+            margin: 0.5rem 0;
+            line-height: 1.6;
+            color: #555;
+        }
+        
+        .project-card strong {
+            color: #333;
+        }
+        
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 1.5rem;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>N.Gireesh Reddy</h1>
+        <h2>STUDENT | TECH ENTHUSIAST</h2>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="about" class="about-me">
+            <h2>ABOUT ME</h2>
+            <h3>s N.grieesh reddy
+                Hello! My name is N.grieesh reddy. I am a passionate student interested in
+                web development, artificial intelligence, and problem solving.
+                I enjoy learning new technologies and building simple web applications.
+            </h3>
+        </section>
+        
+        <section id="skills" class="skills">
+            <h2>SKILLS</h2>
+            <ul>
+                <li>Java</li>
+                <li>Python</li>
+                <li>C</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ul>
+        </section>
+        
+        <section id="projects" class="projects">
+            <h2>PROJECTS</h2>
+            <div class="project-list">
+                <div class="project-card">
+                    <h3>Personal Portfolio Website</h3>
+                    <p><strong>Technologies:</strong> HTML, CSS, JavaScript</p>
+                    <p>A fully responsive personal portfolio website showcasing projects and skills with modern design and smooth navigation.</p>
+                </div>
+                
+                <div class="project-card">
+                    <h3>E-Commerce Landing Page</h3>
+                    <p><strong>Technologies:</strong> HTML, CSS</p>
+                    <p>A beautifully designed landing page for an e-commerce store featuring product showcases, testimonials, and call-to-action buttons.</p>
+                </div>
+                
+                <div class="project-card">
+                    <h3>Responsive Blog Layout</h3>
+                    <p><strong>Technologies:</strong> HTML, CSS</p>
+                    <p>A clean and modern blog layout with responsive grid design, article cards, and sidebar navigation that works on all devices.</p>
+                </div>
+                
+                <div class="project-card">
+                    <h3>Interactive Card Component</h3>
+                    <p><strong>Technologies:</strong> HTML, CSS, JavaScript</p>
+                    <p>Animated card components with hover effects, transitions, and interactive elements demonstrating CSS animations and JavaScript interactivity.</p>
+                </div>
+                
+                <div class="project-card">
+                    <h3>Restaurant Menu Website</h3>
+                    <p><strong>Technologies:</strong> HTML, CSS</p>
+                    <p>A professional website for a restaurant featuring menu items, gallery, reservation form, and contact information with elegant styling.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2026 N.Gireesh Reddy. All rights reserved.</p>
+        <p>Contact: <a href="mailto:your.email@example.com" style="color: #667eea; text-decoration: none;">your.email@example.com</a></p>
+    </footer>
+</body>
+</html>
